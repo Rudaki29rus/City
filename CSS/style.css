@@ -1,0 +1,86 @@
+body{
+	margin:0;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+.container{
+	padding: 0 15%;
+}
+header{
+	display: flex;
+	align-items: center;
+	height: 100vh;
+	justify-content: center;
+	background-image: url(img/background_header.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+h1{
+	color: #E2D8D8;
+	font-size: 3em;
+	text-align: center;
+}
+h2{
+	text-align: center;
+}
+.about, .links{
+	margin-top: 5%;
+	text-align: justify;
+	font-size: 1.5em;
+}
+.logo{
+	display: flex;
+	align-items: center;
+}
+.logo img{
+	max-width: 200px;
+	width: 100	%;
+}
+.parent{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+}
+.item{
+	text-align: center;
+	color: #680404;
+	border: 5px groove #680404;
+	border-radius: 3%;
+	transition: 0.5s;
+	margin:10px;
+	background: rgba(255, 222, 173, 0.2)
+}
+.item:hover{
+	transform: scale(1.05);
+	background: transparent;
+}
+footer{
+	margin-top: 50px;
+	background-color: rgba(255, 222, 173, 0.6);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.main_link:hover{
+	text-decoration: underline;
+}
+footer a{
+	transform: 5s;
+}
+footer p{
+	margin:0;
+	display: flex;
+	align-items: center;
+}
+.social a{
+	width: 25px;
+	margin:15px;
+}
+.social a:hover{
+	transform: translateY(-2px);
+}
