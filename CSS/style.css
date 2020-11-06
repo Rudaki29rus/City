@@ -15,7 +15,7 @@ header{
 	align-items: center;
 	height: 100vh;
 	justify-content: center;
-	background-image: url(img/background_header.jpg);
+	background-image: url('../img/background_header.jpg');
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
