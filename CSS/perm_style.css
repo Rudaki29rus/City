@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'Yanone Kaffeesatz';
-	src: url('font/YanoneKaffeesatz-VariableFont_wght.ttf');
+	src: url('../font/YanoneKaffeesatz-VariableFont_wght.ttf');
 }
 body {
 	font-family: 'Yanone Kaffeesatz';
-	src: url('font/YanoneKaffeesatz-VariableFont_wght.ttf');
+	src: url('../font/YanoneKaffeesatz-VariableFont_wght.ttf');
 	background-color: #ffd20a;
 	color: black;
 	margin: 0;
@@ -14,7 +14,7 @@ body {
     background-color: black;
     color: white;
     padding: 200px 0;
-    background-image: url('2251799825311600_849f.jpg');
+    background-image: url('../img/2251799825311600_849f.jpg');
     background-position: top center;
     background-repeat: no-repeat;
     background-attachment: fixed;
