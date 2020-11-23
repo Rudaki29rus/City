@@ -1,0 +1,136 @@
+body{
+	font-family: 'Noto Sans', sans-serif;
+	margin: 0px;
+	background-color: aliceblue;
+	
+	
+}
+nav{
+	display: flex;
+	width: 100%;
+	
+}
+nav a:hover{
+	transform: rotate(360deg);
+}
+header{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	width: 100%;
+	border-bottom: 1px solid black;
+	position: fixed;
+	padding: 0% 5%;
+	background-color: aliceblue;
+	
+	
+}
+header img{
+	width:75px;
+	height:70px;
+	margin-top: 10px;
+}
+nav a {
+	text-decoration: none;
+	font-size: 25px;
+	font-weight: 600;
+	margin: 0px 205px;
+	color: #2A3D8F;
+	transition: 1s;
+
+}
+.slogan{
+height: 486px;
+background-image: url("../img/Piter/welcome.jpg");
+background-repeat: no-repeat;
+background-position: center;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.slogan h1{
+	color: white;
+	text-align: center;
+}
+h2{
+	color:#2A3D8F;
+	font-size: 36px;
+	line-height: 50px;
+	text-align: center;
+}
+h3{
+	font-size: 30px;
+	line-height: 50px;
+}
+#about{
+	padding: 0% 5%;
+}
+#about img{
+	height: 390px;
+	margin: 15px;
+	border-radius: 5px;
+	box-shadow: 0 0 5px black;
+}
+#about div{
+	text-align: justify;
+}
+#gallery{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding: 0% 5%;
+}
+#gallery img{
+	margin: 50px;
+	border-radius: 5px;
+	box-shadow: 0 0 5px black;
+}
+section{
+	display: flex;
+}
+#covid{
+	padding: 0% 5%;
+	text-align: justify;
+	display: flex;
+	justify-content: center;
+}
+.first{
+	width: 25%;
+	height: 400px;
+	background-color: rgb(220 220 220);
+	padding: 0 15px;
+	margin-right: 50px;
+	
+}
+.second{
+	width: 25%;
+	height: 400px;
+	background-color: rgb(220 220 220);
+	padding: 0 15px;
+	margin-left: 50px;
+	
+}
+footer{
+	background-color: #B5D4C5;
+	margin-top: 20px;
+	height: 60px;
+
+}
+.footer{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 15px 0;
+	
+
+}
+.heshteg {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 22px;
+	margin: 0;
+}
+.year{
+	font-size: 14px;
+	margin: 0;
+}
