@@ -46,6 +46,10 @@ h2{
 	flex-flow: row wrap;
 	justify-content: center;
 }
+.author{
+	font-size: 16px;
+	color: lightgrey;
+}
 .item{
 	text-align: center;
 	color: #680404;
