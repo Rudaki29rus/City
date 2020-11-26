@@ -1,0 +1,28 @@
+.cc1 img{
+	border-radius: 70px;
+	margin: 0.1px;
+	width: 50%;
+
+}
+.cc1{
+text-align: center;
+}
+body{
+	background-image:url('../img/Omsk/bgc.jpg');
+
+	
+	
+}
+hr{
+	border: 5px solid #45015d;
+	border-radius: 4px;
+	}
+	h1{
+		color: #8B0000;
+	}
+	h2{
+		color: #4B0082;
+	}
+	h3{
+		color: #00008B;
+	}
