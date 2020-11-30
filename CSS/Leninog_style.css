@@ -1,0 +1,81 @@
+html,body{
+	margin: 0;
+	padding: 0;
+	/*background-image: url("img/nebo.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;*/
+}
+a{
+	text-decoration: none;
+	color: black;
+	padding: 20px 40px;
+}
+a:hover{
+	background-color: #ccc;
+}
+li{
+	display: inline-block;
+	padding: 20px 40px;
+}
+header{
+	text-align: center;
+}
+.name-city{
+	background-image: url("../img/Leninog/lenin.jpg");
+	text-align: center;
+	color: white;
+	padding: 200px 0;
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+#about,#history,#celebrities{
+	max-width: 1200px;
+	margin:0 auto;
+	padding: 40px 0;
+}
+h2{
+	text-align: center;
+}
+#about img{
+	float: right;
+	margin: 30px;
+	margin-top:0;
+}
+#celebrities {
+	text-align: center;
+}
+
+.people{
+	display: inline-block;
+	width: 20%;
+	min-width: 340px;
+	box-shadow: 0 2px 5px gray;
+	margin: 20px 10px;
+	padding: 20px;
+	text-align: left;
+}
+.people img{
+	width: 100%;
+}
+.people h3{
+	font-weight: 400;
+	font-size: 24px;
+
+}
+.husainov{
+	height: 245px;
+}
+footer p{
+	padding: 0;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+}
+#history img{
+	float: right;
+	width: 500px;
+	margin-left: 20px;
+}
+p{
+	text-align: justify;
+}
