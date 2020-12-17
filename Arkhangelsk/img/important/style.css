@@ -1,0 +1,66 @@
+.info,.info1{
+	display: inline-block;
+	width: 19%;
+	height: 40px;
+	background-color: white;
+	border-radius: 10px;
+	text-align: center;
+	padding-top: 15px;
+	margin: 0;
+	text-decoration: none;
+	color: black;
+}
+.info1{
+	background-color: red;
+	color: white;
+}
+body{
+	background-image: url(проект.png);
+		background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+.buttons{
+	background-color: white;
+	padding: auto;
+	width: 100%;
+	text-align: center;
+
+	
+}
+.info:hover{
+	background-color: black;
+	color: white;
+}
+.h{
+	text-align: center;
+	margin-top: 500px;
+	color: white;
+	font-size: 75px;
+}
+.container{
+	width: 90%;
+	padding:10px;
+	background-color: white;
+	color: black;
+	font-size: 5px;
+	margin: 0 auto;
+	display: block;
+	text-align: center;
+
+
+}
+.text, li{
+	color: black;
+	font-size: 30px;
+}
+h1{
+	text-align: center;
+	color: black;
+	font-size: 50px;
+}
+img{
+	height: 100%;
+	margin: auto;
+	width: 100%;
+}
